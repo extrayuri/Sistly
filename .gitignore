@@ -1,0 +1,32 @@
+# PERMANENT PRIVATE FOLDER - Never to be published
+guide/
+
+# Temporary private folders (may be published later)
+docs/
+checklist/
+
+# Rust specific ignores
+/target/
+Cargo.lock
+**/*.rs.bk
+
+# IDE specific files
+.idea/
+*.iml
+
+# System specific
+.DS_Store
+Thumbs.db
+
+# Environment and local config
+*.env
+.env
+config.local.toml
+
+# Debug files
+*.pdb
+
+# Backup files
+*~
+*.bak
+*.swp
